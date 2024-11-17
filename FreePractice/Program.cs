@@ -1,48 +1,9 @@
 ﻿using System.ComponentModel.Design;
 using System.Security.Cryptography.X509Certificates;
 
-/* ==============Use of if elase statements ============== */
-/*
- * Console.WriteLine("Which item do you want to buy ? cell or brush or fan ");
-string item = Console.ReadLine().ToLower();
-if (item("cell"))
-{
-    Console.WriteLine("its price is 3 Pounds.");
-}
-else if (item== "brush")
-{
-    Console.WriteLine("Its price is 9 pounds.");
-}
-else if (item=="fan")
-{
-    Console.WriteLine("Its price is 50 pounds");
-}
-else
-{
-    Console.WriteLine("Sorry,This product is not Available here.");
-}
 
-
-if (item == "cell" || item == "brush" || item == "fan")
-{
-    Console.WriteLine($"Do you want to purchase this {item}.Enter by  Yes/No  ");
-    string purchase = Console.ReadLine().ToLower();
-
-    if (purchase== "yes")
-    {
-        Console.WriteLine("How do you want to pay ?");
-        Console.ReadLine();
-        Console.WriteLine("Enter yours adress.");
-        Console.ReadLine();
-        Console.WriteLine($"We will send {item} on your adress.");
-    }
-    else
-    {
-        Console.WriteLine("Thank you for yours time.");
-    }
-}
-
-Console.ReadKey();*/
+FreePractice.Learning.LessonOne lessonOne = new FreePractice.Learning.LessonOne();
+lessonOne.ExcerciseOne();
 
 
 /* ==============Use of AND conditions ============== */
@@ -74,38 +35,6 @@ if (weather.Contains("rainy") && weather.Contains("cloudy"))
 }
 Console.ReadKey();
 */
-
-/* ============== Excercise 1:  ============== */
-// Two variables .....
-// 1- integer assign value 10
-// 2- String assign value john
-
-
-
-//int number = 10;
-//string name = "john";
-
-//Console.WriteLine($"Number: {number}");
-//Console.WriteLine("Name: " + name);
-
-//Console.ReadKey();
-
-///* ============== Excercise 2:  ============== */
-//// Declaring Two variables.
-//// find out sum .
-////find out differrence.
-////string formating method.
-
-//int number_1 = 10;
-//int number_2 = 5;
-
-//int sum = number_1 + number_2;
-//int difference = number_1 - number_2;
-
-//Console.WriteLine("Sum: {0}", sum);
-//Console.WriteLine("Difference: {0}", difference);
-
-//Console.ReadKey();
 
 
 ///* ============== Excercise 3:  ============== */
