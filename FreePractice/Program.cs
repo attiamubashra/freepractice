@@ -38,113 +38,23 @@ Console.ReadKey();
 
 
 ///* ============== Excercise 3:  ============== */
-////Two integer variables.
-////Find out mutliplication value.
-////Find out  quotient Value.
-////string iterpolation method.
 
-//int firstNumber = 10;
-//int secondNumber = 5;
-
-//int product = firstNumber * secondNumber;
-//int quotient = firstNumber / secondNumber;
-
-//Console.WriteLine($"Product: {product}");
-//Console.WriteLine($"Quotient: {quotient}");
-
-//Console.ReadKey();
 
 ///* ============== Excercise 4:  ============== */
-//// Two integer variables.
-//// Modulous operatot ...
-//// remainder should be 1.
 
-//int firstModnumber = 50;
-//int secondModNumber = 7;
-
-//int solution = firstModnumber % secondModNumber;
-
-//Console.WriteLine("Remainder : {0}", solution);
-
-//Console.ReadKey();
 
 ///* ============== Excercise 5:  ============== */
-//// Two integer variables.
-//// Rectangle area output should be 20.
-//// Multiplication method.
-//// CamelCase. 
-//// String formating method. 
 
-//int length = 10;
-//int width = 2;
-
-//int areaOfRectangle = length * width;
-
-//Console.WriteLine("Area of rectangle : {0}", areaOfRectangle);
-
-//Console.ReadKey();
 
 ///* ============== Excercise 6:  ============== */
-////  One integer variable 'age'.
-////  if and else case method.
-////  camelCase .
-////  String interpolation method.
 
-//int age  = 69;
-//if (age >= 18)
-//{
-//    Console.WriteLine("You are an adult.");
-//}
-//else
-//{
-//    Console.WriteLine("You are minor.");
-//}
-
-//Console.ReadKey();
 
 ///* ============== Excercise 7:  ============== */
-//// Two integer variable.
-//// if and else statement method.
-//// Choose which number  is greater.
 
-//int firstInteger = 15;
-//int secondInteger = 15;
-
-//if (firstInteger > secondInteger)
-//{
-//    Console.WriteLine(firstInteger + " is greater than " + secondInteger);
-//}
-//else if (firstInteger < secondInteger) 
-//{
-//    Console.WriteLine(secondInteger + " is greater than " + firstInteger);
-//}
-//else
-//{
-//    Console.WriteLine("Both Number are equal.");
-//}
-
-//Console.ReadKey();
 
 ///* ============== Excercise 8:  ============== */
 
-//// Declare an integer variable assign it value.
-//// Modulous operator.
-//// if and else method.
-//// camelCase .
-//// String concatination.
 
-//int integer = 64;
-
-//if (integer % 2 == 0)
-//{
-//    Console.WriteLine("The number is even.");
-//}
-//else 
-//{
-//    Console.WriteLine("The number is odd.");
-//}
-
-//Console.ReadKey();
 
 ///* ============== Excercise 9:  ============== */
 //// if and else statements.
@@ -152,20 +62,20 @@ Console.ReadKey();
 //// camelCase method.
 //// string interpolation .
 
-//int score = 33;
+int score = 33;
 
-//if (score >= 90)
-//{
-//    Console.WriteLine("Grade A");
-//}
-//else if (score >= 80)
-//{
-//    Console.WriteLine("Grade B");
-//}
-//else if (score >= 70)
-//{
-//    Console.WriteLine("Grade C");
-//}
+if (score >= 90)
+{
+    Console.WriteLine("Grade A");
+}
+else if (score >= 80)
+{
+    Console.WriteLine("Grade B");
+}
+else if (score >= 70)
+{
+    Console.WriteLine("Grade C");
+}
 
 
 
@@ -302,13 +212,25 @@ else
 Console.ReadKey();
 
 
+//////................*********...............\\\\\\\\
+Console.WriteLine("Write down your lucky number.");
+string numberR = Console.ReadLine();
+
+int luckyNumber;
+bool luckyDrawNumber = int.TryParse(numberR, out luckyNumber);
+
+if (luckyDrawNumber)
+{
+    Console.WriteLine("Your number has enterd in lucky Draw.");
+}
+else 
+{
+    Console.WriteLine("Try again {0} is not registered.",numberR);
+}
+Console.ReadKey();
 
 
-
-
-
-
-
+/////////.............*********............\\\\\\\\\\\
 
 
 
