@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace FreePractice.Learning
 {
+    /// <summary>
+    /// TODO
+    /// </summary>
     internal class LessonOne
     {
+        public LessonOne()
+        {
+               
+        }
+
         /// <summary>
         /// Two variables .....
         /// 1- integer assign value 10
@@ -191,7 +199,10 @@ namespace FreePractice.Learning
             {
                 Console.WriteLine("Grade C");
             }
-        }public void ExcerciseTen() 
+        }
+        
+        
+        public void ExcerciseTen() 
         {
         
         }
